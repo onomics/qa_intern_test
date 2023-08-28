@@ -6,8 +6,8 @@ module.exports = {
   addToFavoriteButton: '//div[contains(@class, "style-header-add-favorite")]//button[@data-marker="item-view/favorite-button"]',
   inFavoriteButton: '//div[contains(@class, "style-header-add-favorite")]//button[@data-is-favorite="true"]',
 
-  openPage() {
-    I.amOnPage('/nikel/knigi_i_zhurnaly/domain-driven_design_distilled_vaughn_vernon_2639542363');
+  openPage(url) {
+    I.amOnPage(url);
   },
   addToFavorite() {
     I.waitForElement(this.addToFavoriteButton, 20);
