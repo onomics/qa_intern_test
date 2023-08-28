@@ -23,6 +23,7 @@ exports.config = {
   include: {
     I: './steps_file.js',
     itemPage: "./pages/item.js",
+    favoritesPage: "./pages/favorites.js",
   },
   name: 'qa_intern_test'
 }
